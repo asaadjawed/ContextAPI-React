@@ -19,16 +19,12 @@ const Person =()=>{
     return(
         <>
         <div>
-            {user.map(user =>{
-                return(
-                    <ul>
-                    <li>
-                        {user && user[0]?.name}
-                    </li>
-                </ul>
-                )
-            })}
-
+        
+            <ul>
+                <li>
+                    {user && user[0]?.name}
+                </li>
+            </ul>
         </div>
 
 
